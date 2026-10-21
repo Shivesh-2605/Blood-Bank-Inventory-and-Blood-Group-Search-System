@@ -1,0 +1,34 @@
+SAMPLE INPUT
+
+Enter number of donor records (max 50): 3
+
+Enter donor ID: 101
+Enter blood group (A+, A-, B+, B-, O+, O-, AB+, AB-): A+
+Enter available units: 5
+
+Enter donor ID: 102
+Enter blood group (A+, A-, B+, B-, O+, O-, AB+, AB-): O+
+Enter available units: 8
+
+Enter donor ID: 103
+Enter blood group (A+, A-, B+, B-, O+, O-, AB+, AB-): A+
+Enter available units: 3
+
+Enter blood group to search: A+
+
+SAMPLE OUTPUT
+
+--- Blood Bank Inventory ---
+ID: 101 | Group: A+ | Units: 5
+ID: 102 | Group: O+ | Units: 8
+ID: 103 | Group: A+ | Units: 3
+
+Matching records:
+Donor ID: 101 | Units: 5
+Donor ID: 103 | Units: 3
+Total available units of A+: 8
+
+--- Records Sorted by Blood Group ---
+ID: 101 | Group: A+ | Units: 5
+ID: 103 | Group: A+ | Units: 3
+ID: 102 | Group: O+ | Units: 8
