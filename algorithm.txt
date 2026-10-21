@@ -1,0 +1,33 @@
+ALGORITHM: BLOOD BANK INVENTORY AND BLOOD GROUP SEARCH SYSTEM
+
+1. Start the program.
+
+2. Declare arrays to store donor IDs, blood groups, and available blood units.
+
+3. Read the number of donor records.
+
+4. Check whether the number of records is between 1 and 50. If invalid, display an error message and terminate the program.
+
+5. Read each donor's ID, blood group, and available units.
+
+6. Check whether the available units are negative. If so, display an error message and terminate the program.
+
+7. Display all donor records.
+
+8. Read the blood group to be searched.
+
+9. Initialize the total units to zero and the search status to false.
+
+10. Compare each stored blood group with the search group using `strcmp()`.
+
+11. If a match is found, display the donor ID and available units, add the units to the total, and mark the record as found.
+
+12. If matching records exist, display the total available units. Otherwise, display a message indicating that no matching records were found.
+
+13. Sort the records alphabetically by blood group using bubble sort.
+
+14. Whenever two blood groups are swapped, swap their corresponding donor IDs and available units as well.
+
+15. Display the sorted records.
+
+16. Stop the program.
